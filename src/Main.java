@@ -9,5 +9,6 @@ public class Main {
         System.out.println("Artifact 3: " + artifact3.getName());
 
         System.out.println("Total artifacts: " + Artifact.getTotalArtifacts());
+        System.out.println("Universal Constant: " + Artifact.UNIVERSAL_CATALOGING_CONSTANT);
     }
 }
