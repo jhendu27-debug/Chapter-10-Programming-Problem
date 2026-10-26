@@ -13,6 +13,10 @@ I added the Universal Cataloging Constant as a static final variable. It is shar
 
 I created the ArchiveCalculator utility class and added a static method to calculate the Stability Index. I learned that a static utility method is useful when I do not need to create an object just to perform a calculation.
 
-## Phase 4
+# Phase 4
 
 I created the archive report and formatted the constant to three decimal places. I also used Double.parseDouble() to turn the raw log string into a double. This is useful because real data from files and logs often starts as text.
+
+# Phase 5
+
+I tested the program with energy levels above and below the constant. The calculations worked correctly because Math.abs() handles the difference either way. I did not make any major changes because the program was working as expected.
