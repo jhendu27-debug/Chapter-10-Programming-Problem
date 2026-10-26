@@ -8,3 +8,7 @@ I created the Artifact class with a name and Integer ID. I also added a static c
 # Phase 2
 
 I added the Universal Cataloging Constant as a static final variable. It is shared by all artifacts and cannot be changed. I learned that static means it belongs to the class instead of one object, while final means the value cannot be changed.
+
+# Phase 3
+
+I created the ArchiveCalculator utility class and added a static method to calculate the Stability Index. I learned that a static utility method is useful when I do not need to create an object just to perform a calculation.
